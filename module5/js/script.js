@@ -114,11 +114,8 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
         // Hint: you need to surround the chosen category short name with something before inserting
         // it into the home html snippet.
         //
-        console.log("Short name before", chosenCategoryShortName);
         chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
-        console.log("chosenCategoryShortName", chosenCategoryShortName);
         var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
-        console.log("homeHTMLtoINSERT", homeHtmlToInsertIntoMainPage);
 
         // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
         // Use the existing insertHtml function for that purpose. Look through this code for an example
